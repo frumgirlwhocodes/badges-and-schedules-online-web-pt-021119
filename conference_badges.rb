@@ -20,7 +20,7 @@ end
 
  def printer(speakers)
   batch_badge_creator(speakers). each do |speakers|
-    puts speakers
+    puts "#{speakers}"
   end
   assign_rooms(speakers).each do |speakers|
     puts speakers
